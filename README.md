@@ -1,6 +1,8 @@
-# fast_matched_filter (FMF)
+# fast_matched_filter_sac (FMFS)
 
-An efficient seismic matched-filter search for both CPU and GPU architectures. Documentation at https://ebeauce.github.io/FMF_documentation/.
+An efficient seismic matched-filter search for both CPU and GPU architectures **Specifically designed for processing and analyzing SAC data**. 
+
+Documentation at https://ebeauce.github.io/FMF_documentation/.
 
 <p align="center">
 <img src="data/fmf.svg" width=350>
