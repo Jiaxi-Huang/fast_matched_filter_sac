@@ -1,6 +1,6 @@
 # fast_matched_filter_sac (FMFS)
 
-An unoffical branch of **fast_matched_filter(FMF) Specifically designed for processing and analyzing SAC data**. 
+A unoffical branch of **fast_matched_filter(FMF) Specifically designed for processing and analyzing SAC data**. 
 
 Documentation at https://ebeauce.github.io/FMF_documentation/.
 
