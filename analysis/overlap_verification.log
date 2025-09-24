@@ -1,0 +1,199 @@
+2025-07-31 22:24:58,920 - INFO - Verifying station: Xs01
+2025-07-31 22:24:58,922 - INFO - Verifying result file: Xs01_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:24:59,004 - INFO - Verifying result file: Xs01_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:24:59,055 - INFO - Verifying result file: Xs01_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:24:59,108 - INFO - Verifying result file: Xs01_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:24:59,165 - INFO - Verifying result file: Xs01_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:24:59,216 - INFO - Verifying result file: Xs01_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:24:59,271 - INFO - Verifying station: Xs02
+2025-07-31 22:24:59,272 - INFO - Verifying result file: Xs02_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:24:59,321 - INFO - Verifying result file: Xs02_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:24:59,370 - INFO - Verifying result file: Xs02_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:24:59,421 - INFO - Verifying result file: Xs02_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:24:59,471 - INFO - Verifying result file: Xs02_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:24:59,521 - INFO - Verifying result file: Xs02_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:24:59,570 - INFO - Verifying station: Xs03
+2025-07-31 22:24:59,571 - INFO - Verifying result file: Xs03_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:24:59,623 - INFO - Verifying result file: Xs03_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:24:59,675 - INFO - Verifying result file: Xs03_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:24:59,728 - INFO - Verifying result file: Xs03_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:24:59,781 - INFO - Verifying result file: Xs03_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:24:59,833 - INFO - Verifying result file: Xs03_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:24:59,886 - INFO - Verifying station: Xs04
+2025-07-31 22:24:59,886 - INFO - Verifying result file: Xs04_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:24:59,936 - INFO - Verifying result file: Xs04_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:24:59,985 - INFO - Verifying result file: Xs04_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:00,035 - INFO - Verifying result file: Xs04_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:00,084 - INFO - Verifying result file: Xs04_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:00,133 - INFO - Verifying result file: Xs04_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:00,183 - INFO - Verifying station: Xs05
+2025-07-31 22:25:00,184 - INFO - Verifying result file: Xs05_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:00,232 - INFO - Verifying result file: Xs05_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:00,280 - INFO - Verifying result file: Xs05_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:00,328 - INFO - Verifying result file: Xs05_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:00,377 - INFO - Verifying result file: Xs05_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:00,426 - INFO - Verifying result file: Xs05_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:00,491 - INFO - Verifying station: Xs06
+2025-07-31 22:25:00,492 - INFO - Verifying result file: Xs06_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:00,551 - INFO - Verifying result file: Xs06_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:00,603 - INFO - Verifying result file: Xs06_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:00,653 - INFO - Verifying result file: Xs06_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:00,704 - INFO - Verifying result file: Xs06_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:00,754 - INFO - Verifying result file: Xs06_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:00,813 - INFO - Verifying station: Xs07
+2025-07-31 22:25:00,814 - INFO - Verifying result file: Xs07_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:00,862 - INFO - Verifying result file: Xs07_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:00,909 - INFO - Verifying result file: Xs07_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:00,956 - INFO - Verifying result file: Xs07_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:01,004 - INFO - Verifying result file: Xs07_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:01,050 - INFO - Verifying result file: Xs07_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:01,099 - INFO - Verifying station: Xs08
+2025-07-31 22:25:01,100 - INFO - Verifying result file: Xs08_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:01,148 - INFO - Verifying result file: Xs08_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:01,196 - INFO - Verifying result file: Xs08_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:01,244 - INFO - Verifying result file: Xs08_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:01,291 - INFO - Verifying result file: Xs08_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:01,338 - INFO - Verifying result file: Xs08_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:01,387 - INFO - Verifying station: Xs09
+2025-07-31 22:25:01,387 - INFO - Verifying result file: Xs09_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:01,442 - INFO - Verifying result file: Xs09_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:01,494 - INFO - Verifying result file: Xs09_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:01,546 - INFO - Verifying result file: Xs09_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:01,599 - INFO - Verifying result file: Xs09_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:01,650 - INFO - Verifying result file: Xs09_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:01,704 - INFO - Verifying station: Xs10
+2025-07-31 22:25:01,705 - INFO - Verifying result file: Xs10_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:01,752 - INFO - Verifying result file: Xs10_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:01,799 - INFO - Verifying result file: Xs10_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:01,846 - INFO - Verifying result file: Xs10_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:01,894 - INFO - Verifying result file: Xs10_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:01,940 - INFO - Verifying result file: Xs10_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:02,017 - INFO - Verifying station: Xs11
+2025-07-31 22:25:02,018 - INFO - Verifying result file: Xs11_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:02,069 - INFO - Verifying result file: Xs11_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:02,119 - INFO - Verifying result file: Xs11_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:02,169 - INFO - Verifying result file: Xs11_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:02,217 - INFO - Verifying result file: Xs11_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:02,264 - INFO - Verifying result file: Xs11_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:02,313 - INFO - Verifying station: Xs12
+2025-07-31 22:25:02,313 - INFO - Verifying result file: Xs12_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:02,363 - INFO - Verifying result file: Xs12_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:02,412 - INFO - Verifying result file: Xs12_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:02,463 - INFO - Verifying result file: Xs12_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:02,513 - INFO - Verifying result file: Xs12_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:02,562 - INFO - Verifying result file: Xs12_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:02,615 - INFO - Verifying station: Xs13
+2025-07-31 22:25:02,615 - INFO - Verifying result file: Xs13_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:02,665 - INFO - Verifying result file: Xs13_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:02,713 - INFO - Verifying result file: Xs13_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:02,763 - INFO - Verifying result file: Xs13_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:02,812 - INFO - Verifying result file: Xs13_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:02,860 - INFO - Verifying result file: Xs13_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:02,922 - INFO - Verifying station: Xs14
+2025-07-31 22:25:02,923 - INFO - Verifying result file: Xs14_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:02,972 - INFO - Verifying result file: Xs14_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:03,020 - INFO - Verifying result file: Xs14_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:03,069 - INFO - Verifying result file: Xs14_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:03,117 - INFO - Verifying result file: Xs14_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:03,165 - INFO - Verifying result file: Xs14_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:03,219 - INFO - Verifying station: Xs16
+2025-07-31 22:25:03,220 - INFO - Verifying result file: Xs16_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:03,270 - INFO - Verifying result file: Xs16_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:03,320 - INFO - Verifying result file: Xs16_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:03,369 - INFO - Verifying result file: Xs16_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:03,418 - INFO - Verifying result file: Xs16_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:03,467 - INFO - Verifying result file: Xs16_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:03,540 - INFO - Verifying station: Xs17
+2025-07-31 22:25:03,541 - INFO - Verifying result file: Xs17_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:03,588 - INFO - Verifying result file: Xs17_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:03,662 - INFO - Verifying result file: Xs17_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:03,712 - INFO - Verifying result file: Xs17_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:03,762 - INFO - Verifying result file: Xs17_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:03,809 - INFO - Verifying result file: Xs17_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:03,861 - INFO - Verifying station: Xs18
+2025-07-31 22:25:03,862 - INFO - Verifying result file: Xs18_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:03,914 - INFO - Verifying result file: Xs18_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:03,966 - INFO - Verifying result file: Xs18_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:04,018 - INFO - Verifying result file: Xs18_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:04,070 - INFO - Verifying result file: Xs18_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:04,121 - INFO - Verifying result file: Xs18_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:04,182 - INFO - Verifying station: Xs19
+2025-07-31 22:25:04,182 - INFO - Verifying result file: Xs19_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:04,233 - INFO - Verifying result file: Xs19_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:04,282 - INFO - Verifying result file: Xs19_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:04,332 - INFO - Verifying result file: Xs19_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:04,381 - INFO - Verifying result file: Xs19_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:04,431 - INFO - Verifying result file: Xs19_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:04,483 - INFO - Verifying station: Xs20
+2025-07-31 22:25:04,483 - INFO - Verifying result file: Xs20_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:04,533 - INFO - Verifying result file: Xs20_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:04,583 - INFO - Verifying result file: Xs20_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:04,639 - INFO - Verifying result file: Xs20_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:04,689 - INFO - Verifying result file: Xs20_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:04,738 - INFO - Verifying result file: Xs20_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:04,845 - INFO - Verifying station: Xs21
+2025-07-31 22:25:04,846 - INFO - Verifying result file: Xs21_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:04,897 - INFO - Verifying result file: Xs21_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:04,946 - INFO - Verifying result file: Xs21_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:04,995 - INFO - Verifying result file: Xs21_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:05,044 - INFO - Verifying result file: Xs21_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:05,092 - INFO - Verifying result file: Xs21_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:05,141 - INFO - Verifying station: Xs22
+2025-07-31 22:25:05,142 - INFO - Verifying result file: Xs22_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:05,189 - INFO - Verifying result file: Xs22_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:05,264 - INFO - Verifying result file: Xs22_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:05,314 - INFO - Verifying result file: Xs22_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:05,372 - INFO - Verifying result file: Xs22_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:05,418 - INFO - Verifying result file: Xs22_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:05,489 - INFO - Verifying station: Xs23
+2025-07-31 22:25:05,490 - INFO - Verifying result file: Xs23_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:05,539 - INFO - Verifying result file: Xs23_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:05,588 - INFO - Verifying result file: Xs23_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:05,637 - INFO - Verifying result file: Xs23_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:05,688 - INFO - Verifying result file: Xs23_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:05,737 - INFO - Verifying result file: Xs23_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:05,797 - INFO - Verifying station: Xs24
+2025-07-31 22:25:05,798 - INFO - Verifying result file: Xs24_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:05,846 - INFO - Verifying result file: Xs24_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:05,893 - INFO - Verifying result file: Xs24_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:05,941 - INFO - Verifying result file: Xs24_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:05,990 - INFO - Verifying result file: Xs24_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:06,040 - INFO - Verifying result file: Xs24_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:06,099 - INFO - Verifying station: Xs25
+2025-07-31 22:25:06,099 - INFO - Verifying result file: Xs25_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:06,152 - INFO - Verifying result file: Xs25_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:06,204 - INFO - Verifying result file: Xs25_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:06,257 - INFO - Verifying result file: Xs25_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:06,307 - INFO - Verifying result file: Xs25_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:06,363 - INFO - Verifying result file: Xs25_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:06,439 - INFO - Verifying station: Xs26
+2025-07-31 22:25:06,439 - INFO - Verifying result file: Xs26_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:06,493 - INFO - Verifying result file: Xs26_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:06,545 - INFO - Verifying result file: Xs26_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:06,599 - INFO - Verifying result file: Xs26_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:06,652 - INFO - Verifying result file: Xs26_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:06,704 - INFO - Verifying result file: Xs26_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:06,761 - INFO - Verifying station: Xs27
+2025-07-31 22:25:06,762 - INFO - Verifying result file: Xs27_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:06,810 - INFO - Verifying result file: Xs27_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:06,885 - INFO - Verifying result file: Xs27_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:06,935 - INFO - Verifying result file: Xs27_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:06,989 - INFO - Verifying result file: Xs27_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:07,039 - INFO - Verifying result file: Xs27_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:07,108 - INFO - Verifying station: Xs28
+2025-07-31 22:25:07,109 - INFO - Verifying result file: Xs28_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:07,167 - INFO - Verifying result file: Xs28_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:07,218 - INFO - Verifying result file: Xs28_matched_filter_results_threshold0.9_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:07,267 - INFO - Verifying result file: Xs28_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:07,328 - INFO - Verifying result file: Xs28_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:07,379 - INFO - Verifying result file: Xs28_matched_filter_results_threshold0.9_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:07,429 - INFO - Verifying result file: Xs28_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:07,479 - INFO - Verifying result file: Xs28_matched_filter_results_threshold0.9_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:07,528 - INFO - Verifying result file: Xs28_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:07,598 - INFO - Verifying station: Xs29
+2025-07-31 22:25:07,599 - INFO - Verifying result file: Xs29_matched_filter_results_threshold0.8_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:07,648 - INFO - Verifying result file: Xs29_matched_filter_results_threshold0.7_weight0.0_1.0_0.0.h5
+2025-07-31 22:25:07,697 - INFO - Verifying result file: Xs29_matched_filter_results_threshold0.7_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:07,754 - INFO - Verifying result file: Xs29_matched_filter_results_threshold0.8_weight0.0_0.0_1.0.h5
+2025-07-31 22:25:07,805 - INFO - Verifying result file: Xs29_matched_filter_results_threshold0.8_weight1.0_0.0_0.0.h5
+2025-07-31 22:25:07,853 - INFO - Verifying result file: Xs29_matched_filter_results_threshold0.7_weight1.0_0.0_0.0.h5
