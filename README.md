@@ -16,17 +16,18 @@ Documentation at https://ebeauce.github.io/FMF_documentation/.
 ## Installation
 
 ### From source
-A simple make + whichever implementation does the trick. Possible make commands are:<br>
-    cd envs
-    conda create --name FMF_LX --file FMF_tuto_Python_packages.txt
-    conda activate FMF_LX
-    cd fast_matched_filter
-    make python_cpu
-    make python_gpu
-    make matlab #(optional)
-    python setup.py build_ext
-    pip install .
-
+A simple make + whichever implementation does the trick. Possible make commands are:
+```shell
+cd envs
+conda create --name FMF_LX --file FMF_tuto_Python_packages.txt
+conda activate FMF_LX
+cd fast_matched_filter
+make python_cpu
+make python_gpu
+make matlab #(optional)
+python setup.py build_ext
+pip install .
+```
 NB: 
 - Matlab compiles via mex, which needs to be setup before running. Any compiler can be chosen during the setup of mex, because it will be bypassed by the CC environment variable in the Makefile. Therefore CC must be set to an OpenMP-compatible compiler.
 - The matching result differ a litter in different operating systems even different hardware. But **it is guranteed that the result of CPU and GPU are the same on the same machine**. 
