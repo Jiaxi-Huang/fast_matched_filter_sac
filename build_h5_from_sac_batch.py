@@ -16,38 +16,40 @@ logging.basicConfig(
 # 获取当前工作目录下的所有子文件夹
 #base_sac_path = './sac_data/'
 #output_base_path = './h5/'
-base_sac_path = '/Volumes/MultiStone/814-918/sac_data/'
-output_base_path = '/Volumes/MultiStone/814-918/h5/'
+base_sac_path = './Analysis/template_sac_data/'
+output_base_path = './Analysis/template_h5_data(20Highpass)/'
+is_highpass = True
+fmin = 20
 # 定义感兴趣的 station 文件夹
 sac_stations = [
-#"Xs01",
-#"Xs02",
-#"Xs03",
-#"Xs04",
-#"Xs05",
-#"Xs06",
-#"Xs07",
-#"Xs08",
-#"Xs09",
-#"Xs10",
-#"Xs11",
-#"Xs12",
-#"Xs13",
-#"Xs14",
-#"Xs16",
-#"Xs17",
-#"Xs18",
-#"Xs19",
-#"Xs20",
-#"Xs21",
-#"Xs22",
+"Xs01",
+"Xs02",
+"Xs03",
+"Xs04",
+"Xs05",
+"Xs06",
+"Xs07",
+"Xs08",
+"Xs09",
+"Xs10",
+"Xs11",
+"Xs12",
+"Xs13",
+"Xs14",
+"Xs16",
+"Xs17",
+"Xs18",
+"Xs19",
+"Xs20",
+"Xs21",
+"Xs22",
 "Xs23",
-#"Xs24",
-#"Xs25",
-#"Xs26",
-#"Xs27",
-#"Xs28",
-#"Xs29",
+"Xs24",
+"Xs25",
+"Xs26",
+"Xs27",
+"Xs28",
+"Xs29",
 ]
 
 # 创建输出目录（如果不存在）
@@ -90,7 +92,10 @@ for sac_station in sac_stations:
             output_station_path = output_base_path + sac_station  + '/'
             if not os.path.exists(output_station_path):
                 os.makedirs(output_station_path);
-            utils.load_sac_data(file_list, f"{event_date}_{sac_station}", path=output_station_path)
+            if is_highpass:
+                utils.sac_to_h5(file_list, f"{event_date}_{sac_station}", fmin= fmin, path=output_station_path)
+            else:
+                utils.sac_to_h5(file_list, f"{event_date}_{sac_station}", path=output_station_path)
             logging.info(f"Successfully loaded SAC data for {event_date}_{sac_station}")
         except Exception as e:
             logging.error(f"Error loading SAC data for {event_date}_{sac_station}: {e}")

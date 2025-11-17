@@ -84,20 +84,9 @@ logging.info(f'Parameter to run matched filter search: threshold = {threshold}, 
 
 result_file = f'./{log_dir}/{station}/{station}_matched_filter_results_threshold{threshold}_weight{weight_str}.h5'
 
-# 检查 HDF5 文件中是否已有已完成的模板
-existing_templates = []
-if os.path.exists(result_file):
-    with h5.File(result_file, 'r') as f:
-        existing_templates = list(f.keys())
-    logging.info(f"Existing templates in result file: {existing_templates}")
 
 for template_idx, template_event in enumerate(template_events):
-    if template_event in existing_templates:
-        logging.warning(f"Template '{template_event}' already exists in the result file. Skipping.")
-        continue
-
     logging.info(f"Processing template {template_event} ({template_idx + 1}/{len(template_events)})")
-
     try:
         template = utils.load_template(template_event, path=template_dir)
     except Exception as e:
@@ -123,60 +112,79 @@ for template_idx, template_event in enumerate(template_events):
     matched_filter_step = 1
     architecture = args.architecture
 
-    global_offset = 0  # 全局样本偏移量
-    current_template_daily = []
-    current_template_all = []
-
-    # 遍历 sac_events 并记录索引
-    for sac_idx, sac_event in enumerate(sac_events):
-        data = utils.load_data(sac_event,path=h5_dir)
-
-        sampling_rate = data['metadata']['sampling_rate']
-        t_start = give_time()
-        cc_sum = fmf.matched_filter(template_array,
-                                    moveout_array,
-                                    weight_array,
-                                    data['waveforms'],
-                                    matched_filter_step,
-                                    arch=architecture)
-        t_end = give_time()
-        logging.info(f'successfully match template:{template_event} with sac data:{sac_event} , consuming {t_end - t_start:.2f} seconds')
-
-        # 动态或静态阈值判断
-        curr_threshold = threshold
-        if args.is_comp:
-            curr_threshold = 2.5 * np.std(cc_sum[0, :])
-            logging.info(f"Using dynamic threshold: {curr_threshold} for sac event {sac_event}")
-
-        matched_event_mask = np.abs(cc_sum[0, :]) > curr_threshold
-        matched_indices_local = np.where(matched_event_mask)[0].tolist()
-        matched_indices_global = [global_offset + idx for idx in matched_indices_local]
-        global_offset += data['waveforms'].shape[-1]
-
-        current_template_daily.append(matched_indices_local)
-        current_template_all.extend(matched_indices_global)
-
-    # 写入 HDF5 文件
+    matched_count = 0
+    #global_offset = 0  # 全局样本偏移量
+    #current_template_daily = []
+    #current_template_all = []
+    # 打开 HDF5 文件以检查现有数据
     with h5.File(result_file, 'a') as f:
-        if template_event in f:
-            logging.warning(f"Group {template_event} already exists. Skipping write.")
-            continue
+        if template_event not in f:
+            grp = f.create_group(template_event)
+            grp.attrs['template_event'] = template_event
+        else:
+            grp = f[template_event]
 
-        grp = f.create_group(template_event)
-        grp.attrs['template_event'] = template_event
+        # 检查是否已存在 daily 组
+        if 'matched_event_index_daily' not in grp:
+            daily_grp = grp.create_group('matched_event_index_daily')
+        else:
+            daily_grp = grp['matched_event_index_daily']
+        existing_dates_per_template = list(daily_grp.keys())  # 获取已处理的日期
+        # 遍历 sac_events 并记录索引
+        for sac_idx, sac_event in enumerate(sac_events):
+            date = str(sac_event.split('_')[0])
+            data = utils.load_data(sac_event,path=h5_dir)
+            if date in existing_dates_per_template:
+                logging.info(f"Template '{template_event}' Day '{date}' data already exists in the result file. Skipping.")
+                #这里读取一下global数据
+                #matched_indices_local = f[template_event][date]
+                #matched_indices_global = [global_offset + idx for idx in matched_indices_local]
+                #current_template_all.extend(matched_indices_global)
+                #global_offset += data['waveforms'].shape[-1]
+                continue
+            sampling_rate = data['metadata']['sampling_rate']
+            t_start = give_time()
+            cc_sum = fmf.matched_filter(template_array,
+                                        moveout_array,
+                                        weight_array,
+                                        data['waveforms'],
+                                        matched_filter_step,
+                                        arch=architecture)
+            t_end = give_time()
+            logging.info(f'successfully match template:{template_event} with sac data:{sac_event} , consuming {t_end - t_start:.2f} seconds')
+            # 动态或静态阈值判断
+            curr_threshold = threshold
+            if args.is_comp:
+                curr_threshold = 2.5 * np.std(cc_sum[0, :])
+                logging.info(f"Using dynamic threshold: {curr_threshold} for sac event {sac_event}")
 
-        # 存储每日匹配结果（变长列表）
-        dtype_vlen = h5.vlen_dtype(np.dtype('int64'))
-        daily_dataset = grp.create_dataset('matched_event_index_daily', (len(current_template_daily),), dtype=dtype_vlen)
-        for i, sublist in enumerate(current_template_daily):
-            daily_dataset[i] = np.array(sublist, dtype=np.int64)
+            matched_event_mask = np.abs(cc_sum[0, :]) > curr_threshold
+            matched_indices_local = np.where(matched_event_mask)[0].tolist()
+            #matched_indices_global = [global_offset + idx for idx in matched_indices_local]
+            #current_template_daily = matched_indices_local
+            #global_offset += data['waveforms'].shape[-1]
+            #current_template_all.extend(matched_indices_global)
+            # 写入 HDF5 文件
+            daily_grp = f[template_event]['matched_event_index_daily']
+            date_grp = daily_grp.create_group(date)
+            date_grp.attrs['date'] = date
+            date_grp.create_dataset('matched_event_index', data=np.array(matched_indices_local, dtype=np.int64))
 
+        # 写入 HDF5 文件
         # 存储全局匹配结果
-        all_array = np.array(current_template_all, dtype=np.int64)
-        grp.create_dataset('matched_event_index_all', data=all_array)
+        #all_array = np.array(current_template_all, dtype=np.int64)
+        #grp.create_dataset('matched_event_index_all', data=all_array)
+        # 计算匹配总数
+        for date in daily_grp.keys():
+            try:
+                matched_indices_local = daily_grp[date]['matched_event_index'][()]
+                matched_count += len(matched_indices_local)
+            except KeyError:
+                logging.warning(f"Failed to read matched indices for date '{date}'. Skipping.")
 
-        # 匹配总数
-        matched_count = sum(len(lst) for lst in current_template_daily)
+        # 写入匹配总数
+        if 'matched_count' in grp:
+            del grp['matched_count']  # 删除旧数据集
         grp.create_dataset('matched_count', data=np.array(matched_count))
 
     logging.info(f"Finished processing template '{template_event}', matched count: {matched_count}")
