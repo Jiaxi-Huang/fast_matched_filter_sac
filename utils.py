@@ -69,11 +69,12 @@ def sac_to_h5(sac_filenames,save_same,fmin = None, path='./'):
 def load_data(filename, path='./'):
     data = {}
     with h5.File(path + filename, mode='r') as f:
-        data['metadata'] = {}
-        data['metadata']['stations'] = f['stations'][()].astype('U').tolist()
-        data['metadata']['components'] = f['components'][()].astype('U').tolist()
-        data['metadata']['date'] = udt(f['start_timestamps'][()])
-        data['metadata']['sampling_rate'] = f['sampling_rate'][()]
+        data = {}
+        data['stations'] = f['stations'][()]
+        data['components'] = f['components'][()]
+        data['sampling_rate'] = f['sampling_rate'][()]
+        data['start_timestamps'] = f['start_timestamps'][()]
+        data['end_timestamps'] = f['end_timestamps'][()]
         data['waveforms'] = f['waveforms'][()]
     return data
 
