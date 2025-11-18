@@ -22,34 +22,34 @@ def read_offsets(txt_file):
         return []
 # 定义需要处理的 station 文件夹
 stations = [
-#"Xs01",
-#"Xs02",
-#"Xs03",
-#"Xs04",
-#"Xs05",
-#"Xs06",
-#"Xs07",
-#"Xs08",
-#"Xs09",
-#"Xs10",
-#"Xs11",
-#"Xs12",
-#"Xs13",
-#"Xs14",
-#"Xs16",
-#"Xs17",
-#"Xs18",
-#"Xs19",
-#"Xs20",
-#"Xs21",
-#"Xs22",
-#"Xs23",
-#"Xs24",
-#"Xs25",
-#"Xs26",
-#"Xs27",
-#"Xs28",
-#"Xs29",
+"Xs01",
+"Xs02",
+"Xs03",
+"Xs04",
+"Xs05",
+"Xs06",
+"Xs07",
+"Xs08",
+"Xs09",
+"Xs10",
+"Xs11",
+"Xs12",
+"Xs13",
+"Xs14",
+"Xs16",
+"Xs17",
+"Xs18",
+"Xs19",
+"Xs20",
+"Xs21",
+"Xs22",
+"Xs23",
+"Xs24",
+"Xs25",
+"Xs26",
+"Xs27",
+"Xs28",
+"Xs29",
 "Xs28_old"
 ]
 event_date = '20230909'
@@ -186,7 +186,7 @@ for station in stations:
         os.makedirs(output_template_dir,exist_ok=True)
         os.makedirs(f'{output_template_dir}/{station}',exist_ok=True)
         template_name = f'{offset}_{station}.h5'
-        with h5.File(f'{output_template_dir}/{station}/{template_name}', mode='w') as f:
+        with h5.File(f'{output_template_dir}/{template_name}', mode='w') as f:
             f.create_dataset('depth', data=template_metadata['depth'])
             f.create_dataset('latitude', data=template_metadata['latitude'])
             f.create_dataset('longitude', data=template_metadata['longitude'])
